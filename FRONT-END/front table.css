@@ -1,0 +1,9 @@
+#students{
+        border: 1px solid;
+        width: 100%;
+        background-color: rgb(224, 153, 46);
+    
+}
+th td{
+    border: 1px;
+}

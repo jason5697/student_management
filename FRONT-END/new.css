@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table thead th:first-child {
+    padding-left: 1rem;
+}
+
+table tbody td {
+    padding: 1rem 0rem;
+    color: #444;
+}
+
+table tbody td:first-child {
+    padding-left: 1rem;
+   color: red;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #13161a;
+}
+
+.bttn{
+    position: relative;
+    top: 2cm;
+    right: 2cm;
+    border: 5px solid rgb(174, 164, 252); 
+    border-radius: 10px; 
+    width: 95%;
+    left: 0cm;
+    bottom: 1cm;
+}
+h1{
+    position: relative;
+    top: 1cm;
+}
+#box{
+    width: 2cm;
+    height: 1cm;
+    background-color: rgb(228, 70, 22);
+    border-radius: 2px;
+    color: rgb(38, 8, 94);
+}
+
+
+
+
+
+
+
+

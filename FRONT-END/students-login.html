@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>students-login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="table.js">
+    </script>
+  </head>
+  <body style="background-color: rgb(241, 255, 185);">
+    <center><font size="+3" color=red >STUDENTS MANAGEMENT PORTAL</font></center> 
+   
+    <table>
+      <tr>
+        <td>
+          <div class="body">
+                <h3>STUDENT DETAILS</h3>
+
+        
+        <div>
+              <label>Full name :</label>
+              <input type="text" name="userName" id="un" required placeholder="Enter the user Name">
+        </div>
+        <div>
+              <label>Father name:</label>
+              <input type="text" name="Fathername" id="fn" required placeholder="Enter the father name">
+        </div>
+        <div>
+               <label>DOB:</label>
+               <input type= "date" name="dob" required id="dob">
+        </div>
+        <div class="gender">
+             <label>Gender:</label>
+             <label><select name="gender">
+               <option value=" ">gender</option>
+               <option value="male">male</option>
+               <option value="female">female</option>
+             </label></select>
+        </div>
+        <div>
+             <label>Location:</label>
+             <input type="text" name="location" required id="loc" placeholder="Enter the location">
+        </div>
+        <div>
+             <label>Mobile number:</label>
+             <input type="text" name="mo" id="mob" required placeholder="+91">
+        </div>
+        <div>
+             <label>Email:</label>
+             <input type="text" name="email" id="em" required placeholder="email">
+        </div>
+        <div>
+             <label>Department</label>
+             <input type="text" name="department" id="dpt" required placeholder="branch">
+        </div>
+        <div>
+             <label>Batch:</label>
+             <input type="text" name="batch" id="btch" required placeholder="year of joining">
+        </div><br></div></br>
+      
+        <div clss="button">
+          <button onclick="insert()"> submit</button>
+        </div>
+    
+  
+  </td>
+  <div class="students">
+     <table id="students">
+     </table>
+  </div>
+   </tr>
+  </table>
+
+  
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+     <link rel="stylesheet" href="dstyle.css">
+     <script src="table.js"></script>
+</head>
+<body>
+     <div class="container">
+          <h1 form class="form-title">UPDATE STUDENT DETAILS</h1>
+          <form action="#">
+               <div class="main-user-info">
+                <div class="user-input-box">
+                    <label id="u">Roll no:</label>
+                    <input type="text" name="full name" required id="rn" placeholder="enter roll no">
+               </div>
+                    <div class="user-input-box">
+                         <label id="u1">Full name:</label>
+                         <input type="text" name="full name" id="un" placeholder="enter full name">
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u2">Father name:</label>
+                         <input type="text" name="father name" id="fn" placeholder="enter father name">
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u3">DOB:</label>
+                         <input type="date" name="DOB" id="dob" >
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u4">Gender:</label>
+                    <label><select style="width: 17.4cm;height: 1cm; border-radius: 7px;" name="gender" id="ge">
+                         <option value=" ">gender</option>
+                         <option value="male">male</option>
+                         <option value="female">female</option>
+                    </label></select>
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u5">Location:</label>
+                         <input type="text" name="location" id="loc" placeholder="Enter the location">
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u6">Mobile number:</label>
+                         <input type="text" name="Mobile number" required id="mob" placeholder="+91">
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u7">Email:</label>
+                         <input type="text" name="email" id="em" required placeholder="email">
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u8">Department:</label>
+                         <input type="text" name="department" id="dpt" required placeholder="branch">
+                    </div>
+                    <div class="user-input-box">
+                         <label id="u9">Batch:</label>
+                         <input type="text" name="batch" id="btch" required placeholder="year of joining">
+                    </div>
+                    <div class="form-submit-btn"> 
+                       <button style="width: 3cm;height: 1cm; background-color: rgb(237, 243, 52);" onclick="update()">SUBMIT</button>
+                    </div>
+                
+               </div>
+          </form>
+     </div>
+     
+</body>
+</html>
